@@ -7,7 +7,7 @@ Menu, Tray, Icon, icons/ahk-yellow.ico
 
 !7::Send {&}{&}                         ; Alt+7         &&          Logical AND
 !+7::Send {&}{&}{=}                     ; Shift+Alt+7   &&=         AND Assignment
-!8::Send {*}{*}                         ; Alt+8         **          Markdown Bold
+!8::Send {*}{*}                         ; Alt+8         **          Math Power
 !9::Send {=}{>}                         ; Alt+9         =>          Arrow
 !+9:: Send {(}{)}{ }{=}{>}              ; Shift+Alt+9   () =>       Arrow Function, implicit return
 !^9:: Send {(}{)}{ }{=}{>}{ }{{}{}}     ; Ctrl+Alt+9    () => {}    Arrow Function, explicit return
