@@ -14,9 +14,9 @@ Menu, Tray, Icon, icons/ahk-yellow.ico
 !\::Send {|}{|}                             ; Alt+\         ||          Logical OR
 !+\::Send {|}{|}{=}                         ; Shift+Alt+\   ||=         OR Assignment
 !=:: Send {=}{=}{=}                         ; Alt+=         ===         Strict Equality
-!+=:: Send {!}{=}{=}                        ; Shift+Alt     !==         Strict Inequality
+!+=:: Send {!}{=}{=}                        ; Shift+Alt+=   !==         Strict Inequality
 !,:: Send {<}{/}{>}{left 1}                 ; Alt+,         </>         HTML Close Tag
-!+,:: Send {<}{/}{>}{left 2}                ; Shift+Alt+,   </>         React Component Tag
+!^,:: Send {<}{/}{>}{left 2}                ; Ctrl+Alt+,    </>         React Component Tag
 !.:: Send {?}{.}                            ; Alt+.         ?.          Optional Chaining
 !+,:: Send {<}{=}                           ; Shift+Alt+,   <=          Less than or equal to
 !+.:: Send {>}{=}                           ; Shift+Alt+.   >=          Greater than or equal to
